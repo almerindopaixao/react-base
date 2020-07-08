@@ -11,6 +11,7 @@ export default function Login() {
         <small>OIE</small>
       </Title>
       <Paragrafo>Lorem ipsu dolo si amerere.</Paragrafo>
+      <button type="button">Enviar</button>
     </Container>
   );
 }
