@@ -13,8 +13,8 @@ export default function MyRoute({ component: Component, isClosed, ...rest }) {
     );
   }
 
-  // eslint-disable-next-line
-  return <Route { ...rest } component={Component} />;
+  // eslint-disable-next-line react/jsx-props-no-spreading
+  return <Route {...rest} component={Component} />;
 }
 
 MyRoute.defaultProps = {

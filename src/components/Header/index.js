@@ -16,10 +16,10 @@ export default function Header() {
       <Link to="/login">
         <FaUserAlt size={24} />
       </Link>
-      <Link to="/entrar">
+      <Link to="/asdasd">
         <FaSignInAlt size={24} />
       </Link>
-      {botaoClicado ? 'Clicado' : 'Não Clicado'}
+      {botaoClicado ? 'Clicado' : 'Não clicado'}
     </Nav>
   );
 }

@@ -16,11 +16,11 @@ export default function Login() {
 
   return (
     <Container>
-      <Title isRed={false}>
+      <Title>
         Login
-        <small>OIE</small>
+        <small>Oie</small>
       </Title>
-      <Paragrafo>Lorem ipsu dolo si amerere.</Paragrafo>
+      <Paragrafo>Lorem ipsum dolor sit amet.</Paragrafo>
       <button type="button" onClick={handleClick}>
         Enviar
       </button>

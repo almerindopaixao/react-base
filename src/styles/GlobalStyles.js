@@ -39,11 +39,11 @@ export default createGlobalStyle`
     list-style: none;
   }
 
-  body .Toastify .Toastify_toast-container .Toastify_toast--success {
+  body .Toastify .Toastify__toast-container .Toastify__toast--success {
     background: ${colors.successColor}
   }
 
-  body .Toastify .Toastify_toast-container .Toastify_toast--error {
+  body .Toastify .Toastify__toast-container .Toastify__toast--error {
     background: ${colors.errorColor}
   }
 `;
@@ -54,5 +54,5 @@ export const Container = styled.section`
   margin: 30px auto;
   padding: 30px;
   border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
